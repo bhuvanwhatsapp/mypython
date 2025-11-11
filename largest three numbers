@@ -1,0 +1,17 @@
+#find the largest among three numbers
+a=float(input("enter first number"))
+b=float(input("enter second number"))
+c=float(input("enter third number"))
+if (a>=b) and (a>=c):
+  largest=a
+elif (b>=a) and (b>=c):
+  largest=b
+else:
+  largest=c
+print("the largest number is ",largest)
+
+
+enter first number5
+enter second number7
+enter third number3
+the largest number is  7.0
